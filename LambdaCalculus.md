@@ -138,7 +138,7 @@ You apply the leftmost head and eliminate and move onto the next head. This is c
 λxy.xy
 ```
 
-is shorthand for two nested lambdas (one for y and one for y)
+is shorthand for two nested lambdas (one for x and one for y)
 
 ```
 λx.(λy.xy)
