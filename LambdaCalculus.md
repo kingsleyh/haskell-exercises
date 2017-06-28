@@ -36,7 +36,7 @@ f(2) = A
 * variables
 * abstractions (functions)
 
-an expression can be a variable or abstraction of combination. An abstraction is a function.
+an expression can be a variable or abstraction or combination. An abstraction is a function.
 
 #### Lambda structure
 
