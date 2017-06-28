@@ -58,7 +58,7 @@ Takes a single parameter only which binds any variables with the same name in th
 
 When applied the function returns the body.
 
-#### Lamda equivalence
+#### Alpha equivalence
 
 determines if a function is the same as another function based on its terms (params and body)
 
