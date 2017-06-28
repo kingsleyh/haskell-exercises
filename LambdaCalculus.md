@@ -130,6 +130,20 @@ Lambda x takes the z and returns it along with y. The x is substitued for the z 
 
 #### Multiple arguments
 
+Since a lambda can only define 1 parameter and accept one argument then functions that require multiple arguments have multiple nested heads.
+
+You apply the leftmost head and eliminate and move onto the next head. This is called `currying`
+
+```
+λxy.xy
+```
+
+is shorthand for two nested lambdas (one for y and one for y)
+
+```
+λx.(λy.xy)
+```
+
 
 
 
