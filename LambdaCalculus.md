@@ -126,7 +126,7 @@ y = free variable
          zy
 ```
 
-Lambda x takes the z and retuns it along with y. The x is substitued for the z everyhere in the body.
+Lambda x takes the z and retuns it along with y. The x is substitued for the z everywhere in the body.
 
 #### Multiple arguments
 
