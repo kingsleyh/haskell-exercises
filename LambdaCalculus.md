@@ -108,7 +108,7 @@ The first x lambda takes the y lambda and returns a y lambda. Use the :== to den
               z 
 ```
 
-Here lambda x takes lambda y and returns lambda y. Lamba y then takes a z and returns it.
+Here lambda x takes lambda y and returns lambda y. Lamba y then takes the z and returns it.
 
 #### Free Variables
 
@@ -126,7 +126,7 @@ y = free variable
          zy
 ```
 
-Lambda x takes the z and retuns it along with y. The x is substitued for the z everywhere in the body.
+Lambda x takes the z and returns it along with y. The x is substitued for the z everywhere in the body.
 
 #### Multiple arguments
 
