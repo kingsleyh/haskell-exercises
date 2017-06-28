@@ -9,6 +9,7 @@ f(1) = A
 ```
 
 1 = input
+
 A = output
 
 #### Referential Transparency
