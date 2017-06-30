@@ -1,4 +1,4 @@
-# Lamda Calculus
+# Lambda Calculus
 
 ### Functions
 
