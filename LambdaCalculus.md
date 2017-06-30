@@ -144,6 +144,43 @@ is shorthand for two nested lambdas (one for x and one for y)
 λx.(λy.xy)
 ```
 
+#### Combinators
+
+A lambda with no free variabled is called a combinator. Every variable in the body is specified in the head.
+ 
+
+```
+λx.x 
+```
+
+If there is a free variable in the body not specified in the head then it's not classed as a combinator
+
+```
+λx.xa
+```
+
+#### Simplification
+
+Beta normal form is when you can't apply lambdas to arguments any more (reduce). 
+
+Given a function (/) when you provide arguments it is said to be saturated - e.g. arguments applied but not yet reduced / evaluated.
+
+``` 2000/1000 ``` is applied but not evaluated
+
+The following has again been applied but not yet evaluated:
+
+```
+(10+2)*100/2
+```
+
+```600``` is the Beta normal form of the above (it has been reduced as far as it can go)
+
+
+#### Divergence
+
+This is when Beta reduction (convergence) is not possible. 
+
+```(λx.xx)(λx.xx)``` is a lambda term called omega that diverges. The x in the first lambdas head becomes the second lambda and so after subsituting (λx.xx) for each occurance we come back to where we started and end up in an infinite loop. 
 
 
 
